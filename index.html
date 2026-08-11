@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>정관장 풍무점 온라인 마케팅 현황 분석</title>
+<style>
+:root{
+  --bg:#f6f7f9; --card:#ffffff; --ink:#1f2937; --muted:#6b7280;
+  --line:#e5e7eb; --accent:#8b1e2d; --accent2:#c93b4b; --good:#177245;
+  --warn:#b7791f; --bad:#b42318; --blue:#1d4ed8;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Arial,sans-serif;line-height:1.65}
+.wrap{max-width:1080px;margin:auto;padding:28px 18px 60px}
+.hero{background:linear-gradient(135deg,#6e1724,#a72a3c);color:#fff;border-radius:22px;padding:34px;box-shadow:0 10px 30px rgba(60,0,10,.18)}
+.hero h1{margin:0 0 8px;font-size:34px;letter-spacing:-1.4px}
+.hero p{margin:4px 0;color:#f8dfe3}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.badge{padding:7px 11px;border-radius:999px;background:rgba(255,255,255,.14);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.kpi b{display:block;font-size:26px;color:var(--accent);margin-bottom:4px}
+.section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;margin-top:18px}
+h2{margin:0 0 16px;font-size:23px;letter-spacing:-.6px}
+h3{margin:20px 0 9px;font-size:17px}
+.note{background:#fff7f7;border-left:4px solid var(--accent);padding:13px 15px;border-radius:10px}
+.ok,.mid,.low{font-weight:700}
+.ok{color:var(--good)} .mid{color:var(--warn)} .low{color:var(--bad)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{border-bottom:1px solid var(--line);padding:12px 10px;text-align:left;vertical-align:top}
+th{background:#fafafa;color:#4b5563}
+.pill{display:inline-block;border-radius:999px;padding:3px 8px;font-size:12px;font-weight:700;background:#f3f4f6}
+.pill.good{color:var(--good);background:#edf7f1}.pill.warn{color:var(--warn);background:#fff6df}.pill.bad{color:var(--bad);background:#fff0ef}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.funnel{display:grid;gap:9px}
+.step{padding:14px 16px;border-radius:12px;background:#f9fafb;border:1px solid var(--line)}
+.step strong{color:var(--accent)}
+.bar{height:11px;background:#eceff3;border-radius:999px;overflow:hidden;margin-top:7px}.bar>i{display:block;height:100%;background:var(--accent2);border-radius:999px}
+.priority{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.plan{border:1px solid var(--line);border-radius:14px;padding:16px}
+.plan h3{margin-top:0;color:var(--accent)}
+ul{padding-left:20px;margin:8px 0}
+small,.source{color:var(--muted);font-size:12px}
+.footer{text-align:center;color:var(--muted);margin-top:24px;font-size:12px}
+@media(max-width:820px){.grid{grid-template-columns:1fr 1fr}.cols,.priority{grid-template-columns:1fr}.hero h1{font-size:27px}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.wrap{padding:14px 10px 36px}.hero{padding:24px 20px}.section{padding:18px 15px}table{font-size:12px}th,td{padding:9px 6px}}
+@media print{body{background:#fff}.wrap{max-width:none}.section,.kpi,.hero{box-shadow:none;break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section class="hero">
+  <div style="font-size:14px;font-weight:700;opacity:.9">온라인 마케팅 현황 분석 보고서</div>
+  <h1>정관장 풍무점</h1>
+  <p>김포 지역 오프라인 건강식품 매장의 ‘검색 → 신뢰 → 문의/방문 → 재구매’ 관점 진단</p>
+  <div class="badges">
+    <span class="badge">조사 기준일 2026.08.11</span>
+    <span class="badge">네이버 Place ID 35507011</span>
+    <span class="badge">공개 웹 정보 기준</span>
+    <span class="badge">매장 자체 활동과 본사 활동 구분</span>
+  </div>
+</section>
+
+<div class="grid">
+  <div class="kpi"><b>핵심</b>네이버 플레이스가 지역 고객 유입의 중심축</div>
+  <div class="kpi"><b>약함</b>매장 자체 콘텐츠의 지속적 검색 노출</div>
+  <div class="kpi"><b>불명</b>검색·플레이스·SNS 유료광고 집행 여부</div>
+  <div class="kpi"><b>기회</b>선물·건강관리 수요를 지역형 콘텐츠로 전환</div>
+</div>
+
+<section class="section">
+<h2>1. 한눈에 보는 결론</h2>
+<div class="note">
+  <b>정관장 풍무점의 온라인 마케팅은 ‘브랜드 힘 + 네이버 지역검색’ 의존도가 높은 구조로 보는 것이 적절합니다.</b>
+  정관장 자체의 높은 인지도는 강점이지만, 풍무점 고유의 지역 콘텐츠·리뷰 관리·상담 전환 장치가 약하면
+  “정관장”을 찾는 고객은 잡아도 “풍무동에서 선물·건강 상담할 매장”을 찾는 신규 고객을 충분히 선점하기 어렵습니다.
+</div>
+<div class="cols">
+  <div>
+    <h3>현재 강점</h3>
+    <ul>
+      <li>전국 브랜드 인지도로 기본 신뢰 확보</li>
+      <li>네이버 지도/플레이스를 통한 위치·방문 검색 대응 가능</li>
+      <li>오프라인 상담이 중요한 상품 특성상 지역 기반 전환 가능성이 높음</li>
+      <li>김포 지역화폐 사용처 목록에서 ‘정관장풍무점’이 확인된 과거 공개 자료가 존재</li>
+    </ul>
+  </div>
+  <div>
+    <h3>가장 큰 개선 포인트</h3>
+    <ul>
+      <li>매장 자체 콘텐츠를 정기적으로 축적해 지역 키워드 점유</li>
+      <li>네이버 플레이스 소개·사진·소식·리뷰 답변을 ‘구매 상황’ 중심으로 재구성</li>
+      <li>카카오 상담 또는 전화 문의 CTA를 명확히 연결</li>
+      <li>유료광고 여부는 광고계정에서 실제 집행 데이터 확인 필요</li>
+    </ul>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<h2>2. 온라인 채널 운영 현황</h2>
+<table>
+<thead><tr><th>채널</th><th>확인 상태</th><th>현재 역할</th><th>컨설팅 판단</th></tr></thead>
+<tbody>
+<tr><td><b>네이버 플레이스/지도</b></td><td><span class="pill good">확인</span></td><td>상호·위치 검색, 길찾기, 전화, 리뷰 등 지역검색 핵심 접점</td><td><span class="ok">최우선 관리 채널</span></td></tr>
+<tr><td>네이버 검색</td><td><span class="pill good">확인 가능</span></td><td>브랜드명·지점명·지역 키워드 유입</td><td>지점명 검색 외 ‘풍무동 건강선물’ 등 비브랜드 키워드 확대 필요</td></tr>
+<tr><td>네이버 블로그/UGC</td><td><span class="pill warn">산발적</span></td><td>방문 후기 및 상품 관련 검색 보조</td><td>매장 자체의 꾸준한 콘텐츠 자산화 필요</td></tr>
+<tr><td>인스타그램</td><td><span class="pill warn">매장 전용 확인 제한</span></td><td>브랜드·제품 이미지 노출 가능</td><td>운영 시 지역 고객보다 기존 고객 리마인드 채널로 활용</td></tr>
+<tr><td>카카오맵/카카오채널</td><td><span class="pill warn">공개 확인 제한</span></td><td>지도검색·채팅상담·재구매 알림 가능</td><td>채널 개설/운영 여부를 점주 계정에서 확인</td></tr>
+<tr><td>구글 지도/검색</td><td><span class="pill warn">보조 채널</span></td><td>안드로이드·외국인·구글 사용자 검색</td><td>정보 일치 여부 점검 필요</td></tr>
+<tr><td>정관장 본사 채널</td><td><span class="pill good">활성</span></td><td>브랜드 인지도, 캠페인, 제품 교육·프로모션</td><td>본사 콘텐츠를 ‘풍무점에서 상담/구매’로 지역화해야 효과</td></tr>
+<tr><td>당근 등 지역 커뮤니티</td><td><span class="pill bad">뚜렷한 지점활동 확인 어려움</span></td><td>근거리 주민 대상 행사/입고/선물 수요 공략</td><td>저비용 신규 채널 후보</td></tr>
+</tbody>
+</table>
+<p class="source">※ 공개 검색으로 명확히 확인되지 않는 지점 전용 계정·광고는 ‘미운영’이 아니라 ‘공개적으로 확인 제한’으로 표시했습니다.</p>
+</section>
+
+<section class="section">
+<h2>3. 유료 광고 운영 진단</h2>
+<table>
+<thead><tr><th>광고 유형</th><th>공개 확인</th><th>판단/확인 방법</th></tr></thead>
+<tbody>
+<tr><td>네이버 검색광고</td><td><span class="pill warn">공개적으로 확정 불가</span></td><td>광고계정에서 최근 3개월 캠페인·키워드·비용·전환 확인</td></tr>
+<tr><td>네이버 플레이스 광고</td><td><span class="pill warn">공개적으로 확정 불가</span></td><td>스마트플레이스/광고센터 집행내역 확인</td></tr>
+<tr><td>Meta(인스타·페이스북) 광고</td><td><span class="pill warn">공개적으로 확정 불가</span></td><td>매장 또는 본사 계정 구분 필요</td></tr>
+<tr><td>지역 커뮤니티 광고</td><td><span class="pill warn">공개적으로 확정 불가</span></td><td>당근 비즈프로필·지역광고 결제내역 확인</td></tr>
+</tbody>
+</table>
+<div class="note" style="margin-top:14px">
+  <b>컨설팅 포인트:</b> “광고를 하느냐”보다 <b>광고비 → 전화/길찾기/문의 → 실제 구매</b>가 연결되는지를 확인해야 합니다.
+  광고 관리자에서 최소 90일 데이터를 받아야 정확한 ROAS 진단이 가능합니다.
+</div>
+</section>
+
+<section class="section">
+<h2>4. 검색 가시성 & 콘텐츠 진단</h2>
+<div class="cols">
+<div>
+<h3>현재 검색 구조</h3>
+<div class="funnel">
+  <div class="step"><strong>① 브랜드 검색</strong><br>“정관장 풍무점”, “정관장 김포” → 비교적 유리</div>
+  <div class="step"><strong>② 목적 검색</strong><br>“김포 부모님 선물”, “풍무동 홍삼”, “김포 건강선물” → 추가 점유 필요</div>
+  <div class="step"><strong>③ 의사결정</strong><br>사진·리뷰·제품 설명·가격/혜택·주차/결제 정보가 신뢰를 결정</div>
+  <div class="step"><strong>④ 전환</strong><br>전화, 길찾기, 톡상담, 방문</div>
+</div>
+</div>
+<div>
+<h3>추천 핵심 키워드 방향</h3>
+<p>브랜드 키워드만 반복하기보다 <b>지역 + 구매 목적 + 대상</b> 조합을 늘리는 것이 좋습니다.</p>
+<table>
+<tr><th>목적</th><th>예시</th></tr>
+<tr><td>지역</td><td>풍무동 정관장, 김포 정관장, 풍무동 홍삼</td></tr>
+<tr><td>선물</td><td>김포 부모님 선물, 풍무동 명절 선물, 김포 건강선물</td></tr>
+<tr><td>상담</td><td>풍무동 홍삼 상담, 김포 건강식품 상담</td></tr>
+<tr><td>기업/단체</td><td>김포 기업 선물, 김포 단체 선물, 김포 명절 답례품</td></tr>
+</table>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>5. 고객 전환 퍼널</h2>
+<table>
+<thead><tr><th>단계</th><th>현재 예상 상태</th><th>개선 포인트</th></tr></thead>
+<tbody>
+<tr><td>인지</td><td>브랜드 인지도 <b class="ok">강함</b></td><td>풍무동/김포 생활권 키워드 확장</td></tr>
+<tr><td>검색</td><td>지점명 검색 <b class="ok">유리</b></td><td>비브랜드 지역검색 강화</td></tr>
+<tr><td>신뢰</td><td>본사 브랜드 의존 <b class="mid">중간</b></td><td>점주 상담 전문성, 실제 매장 사진, 선물 사례 콘텐츠</td></tr>
+<tr><td>문의</td><td>전화/지도 중심 <b class="mid">중간</b></td><td>카카오·네이버 톡톡 등 편한 상담 경로 추가</td></tr>
+<tr><td>방문/구매</td><td>오프라인 강점 <b class="ok">강함</b></td><td>주차·결제·추천제품·예산별 안내 명확화</td></tr>
+<tr><td>재구매</td><td>온라인 CRM 공개 확인 <b class="low">어려움</b></td><td>동의 기반 고객관리·기념일·명절 리마인드</td></tr>
+</tbody>
+</table>
+</section>
+
+<section class="section">
+<h2>6. 우선순위 실행안</h2>
+<div class="priority">
+  <div class="plan">
+    <h3>즉시 · 1주</h3>
+    <ul>
+      <li>네이버 플레이스 대표소개 재작성</li>
+      <li>대표키워드 5개 정비</li>
+      <li>매장·상담·선물세트 사진 15장 이상 재정렬</li>
+      <li>전화·길찾기·주차·지역화폐 등 구매 장애요인 제거</li>
+      <li>최근 리뷰 전수 답변</li>
+    </ul>
+  </div>
+  <div class="plan">
+    <h3>30일</h3>
+    <ul>
+      <li>주 1회 네이버 소식 업로드</li>
+      <li>‘예산별 선물 추천’ 콘텐츠 4편 제작</li>
+      <li>명절·부모님·직장선물 키워드 콘텐츠 축적</li>
+      <li>카카오채널 또는 톡상담 동선 구축</li>
+      <li>방문고객에게 자연스러운 리뷰 참여 안내</li>
+    </ul>
+  </div>
+  <div class="plan">
+    <h3>90일</h3>
+    <ul>
+      <li>지역 검색광고 소액 테스트</li>
+      <li>기업·단체 선물 랜딩/상담 프로세스 구축</li>
+      <li>광고비 대비 전화·방문·매출 성과 측정</li>
+      <li>재구매 고객 CRM 운영</li>
+      <li>분기별 키워드·리뷰·전환 지표 비교</li>
+    </ul>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<h2>7. 점주 인터뷰 시 반드시 확인할 내부 데이터</h2>
+<div class="cols">
+<div>
+<ul>
+<li>최근 3개월 네이버 광고 집행 여부와 월 예산</li>
+<li>검색광고/플레이스광고 키워드별 클릭·전환</li>
+<li>플레이스 통계: 조회, 전화, 길찾기, 저장</li>
+<li>월 방문객·신규/재구매 비중</li>
+<li>주요 구매층(연령·성별·선물/본인용)</li>
+<li>객단가와 주력 상품군</li>
+</ul>
+</div>
+<div>
+<ul>
+<li>명절/가정의달 등 성수기 매출 비중</li>
+<li>기업·단체 주문 비중과 평균 주문금액</li>
+<li>고객 연락처 확보 및 CRM 방식</li>
+<li>본사 제공 홍보물·쿠폰·캠페인 활용 수준</li>
+<li>경쟁점포와 비교한 가격/서비스 차별점</li>
+<li>온라인 문의가 실제 구매로 이어지는 비율</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>8. 컨설턴트 제안 — 가장 효율적인 3가지</h2>
+<table>
+<tr><th>우선순위</th><th>실행</th><th>기대효과</th><th>비용/난이도</th></tr>
+<tr><td><b>1</b></td><td><b>네이버 플레이스 전환형 개편</b><br>소개·키워드·사진·소식·리뷰·CTA 정비</td><td>검색 → 방문 전환 개선</td><td><span class="pill good">낮음</span></td></tr>
+<tr><td><b>2</b></td><td><b>‘선물 상황’ 콘텐츠 월 4개</b><br>부모님·명절·직장·기업 선물</td><td>비브랜드 지역검색 유입 확대</td><td><span class="pill good">낮음</span></td></tr>
+<tr><td><b>3</b></td><td><b>기존고객 재구매 시스템</b><br>동의 기반 카카오/문자 리마인드</td><td>광고비보다 효율적인 반복매출</td><td><span class="pill warn">중간</span></td></tr>
+</table>
+<div class="note" style="margin-top:16px">
+  <b>핵심 제안:</b> 정관장 풍무점은 새로운 SNS를 여러 개 만드는 것보다,
+  <b>네이버 플레이스를 제대로 만들고 → 지역 검색 콘텐츠를 쌓고 → 기존 고객을 재방문시키는 3단계</b>가
+  시간 대비 성과가 가장 높은 전략입니다.
+</div>
+</section>
+
+<section class="section">
+<h2>9. 공개 자료 및 검증 메모</h2>
+<ul>
+<li>사용자 제공 네이버 지도 장소: Place ID <b>35507011</b> (정관장 풍무점 기준점)</li>
+<li>경기 김포시 <b>풍무로 112</b> 주소는 공개 도로명주소 데이터에서 확인됨.</li>
+<li>과거 공개된 김포페이 가맹점 목록에 <b>정관장풍무점</b>이 포함된 자료가 검색됨. 다만 현재 사용 가능 여부는 매장/김포페이에서 재확인 권장.</li>
+<li>유료 광고 집행 여부는 외부 검색만으로 확정할 수 없으므로 광고계정·결제내역 확인 필요.</li>
+</ul>
+<p class="source">
+출처 확인일: 2026-08-11. 참고 공개자료: 사용자 제공 네이버 지도 URL, 도로명주소 공개 데이터(juso.app 검색결과),
+김포지역화폐 가맹점 공개 목록의 웹 아카이브형 자료. 본 보고서는 외부에서 확인 가능한 정보 중심의 1차 진단이며,
+광고 성과·매출·CRM 관련 항목은 점주 내부 데이터와 결합할 때 최종 진단이 가능합니다.
+</p>
+</section>
+
+<div class="footer">정관장 풍무점 온라인 마케팅 현황 분석 · 소상공인 경영 컨설팅용</div>
+</div>
+</body>
+</html>
